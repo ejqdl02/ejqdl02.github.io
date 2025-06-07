@@ -82,16 +82,16 @@
                     <img src="./imgs/rangong.jpeg" class="img-responsive img-circle" alt="Ran Gong">
                 </div>
                 <div class="col-md-8">
-                    <h1>Ran (Steven) Gong</h1>
+                    <h1>Sungyong Park</h1>
                     <p class="lead">Research Scientist at The Robotics and AI Institute</p>
                     <address>
                         <i class="fa fa-map-marker"></i> 145 Broadway<br>
                         Cambridge, MA, 02142
                     </address>
-                    <p><i class="fa fa-envelope"></i> rgong at rai-inst dot com</p>
+                    <p><i class="fa fa-envelope"></i> ejqdl010 at gmail dot com</p>
                     <div class="social-links">
-                        <a href="https://scholar.google.com/citations?user=ApkezJ0AAAAJ&hl=en&authuser=1" class="btn btn-default"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
-                        <a href="https://github.com/nikepupu" class="btn btn-default"><i class="fa fa-github"></i> GitHub</a>
+                        <a href="https://scholar.google.com/citations?user=hoVU3n8AAAAJ&hl=ko" class="btn btn-default"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
+                        <a href="https://github.com/ejqdl02" class="btn btn-default"><i class="fa fa-github"></i> GitHub</a>
                     </div>
                 </div>
             </div>
@@ -136,9 +136,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="news-list">
-                        <li><strong>04/2025</strong>: RoboVerse is accepted by Robotics: Science and Systems (RSS) 2025.</li>
-                        <li><strong>02/2025</strong>: UrbanSim is accepted by IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025 as a Highlight paper.</li>
-                        <li><strong>06/2024</strong>: I received my PhD from UCLA.</li>
+                        <li><strong>06/2025</strong>: 1st place.</li>
+                        <li><strong>02/2025</strong>: dynsceene is accepted by IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025 as a Highlight paper.</li>
+                        <li><strong>12/2024</strong>: sidl.</li>
                     </ul>
                 </div>
             </div>
@@ -155,253 +155,7 @@
                         <ul class="list-group">
                             (* indicates equal contribution)
                             <!-- roboverse -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/roboverse.png" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning</h4>
-                                        <p class="detail">
-                                            Haoran Geng*, Feishi Wang*, Songlin Wei*, Yuyang Li*, Bangjun Wang*, Boshi An*, Charlie Tianyue Cheng*,
-                                            Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, Chaoyi Xu, Haozhe Chen, Yuxi Qian, 
-                                            Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, 
-                                            Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, <strong>Ran Gong</strong>, Yuran Wang, Yuxuan Kuang, Ruihai Wu, 
-                                            Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Koushil Sreenath, Yue Wang, Jitendra Malik, Pieter Abbeel<br>
-                                            <em>Robotics: Science and Systems, 2025</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#roboverse">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://arxiv.org/pdf/2504.18904"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#roboverse-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                        <a class="btn btn-warning btn-xs" role="button" href="https://roboverse.wiki/"><i class="fa fa-globe"></i> Website</a>
-                                    </div>
-                                </div>
-                                <div id="roboverse" class="collapse abstract">
-                                    Data scaling and standardized evaluation benchmarks have driven significant advances in natural language processing and computer vision. 
-                                    However, robotics faces unique challenges in scaling data and establishing reliable evaluation protocols. Collecting real-world robotic data is resource-intensive 
-                                    and inefficient, while benchmarking in real-world scenarios remains highly complex. Synthetic data and simulation offer promising alternatives,
-                                    yet existing efforts often fall short in data quality, diversity, and benchmark standardization. To address these challenges, we introduce ROBOVERSE, 
-                                    a comprehensive framework comprising a simulation platform, a synthetic dataset, and unified benchmarks. 
-                                    Our simulation platform supports multiple simulators and robotic embodiments, enabling seamless transitions between different environments. 
-                                    The synthetic dataset, featuring high-fidelity physics and photorealistic rendering, is constructed through multiple approaches including migration from public datasets, policy rollout, and motion planning, etc.
-                                    enhanced by data augmentation. Additionally, we propose unified benchmarks for imitation learning and reinforcement learning, 
-                                    enabling consistent evaluation across different levels of generalization. At the core of the simulation platform is METASIM, an infrastructure that abstracts diverse simulation environments into a universal interface. 
-                                    It restructures existing simulation environments into a simulator-agnostic configuration system, as well as an API aligning different simulator functionalities, such as launching simulation environments,
-                                    loading assets with initial states, stepping the physics engine, etc. This abstraction ensures interoperability and extensibility. 
-                                    Comprehensive experiments demonstrate that ROBOVERSE enhances the performance of imitation learning, reinforcement learning, and world model learning, improving sim-to-real transfer.
-                                    These results validate the reliability of our dataset and benchmarks, establishing RoboVerse as a robust solution for advancing simulation-assisted robot learning.
-                                </div>
-                                <div id="roboverse-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@misc{geng2025roboverse,
-    title={RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning},
-    author={Haoran Geng and Feishi Wang and Songlin Wei and Yuyang Li and Bangjun Wang and Boshi An and Charlie Tianyue Cheng and Haozhe Lou and Peihao Li and Yen-Jen Wang and Yutong Liang and Dylan Goetting and Chaoyi Xu and Haozhe Chen and Yuxi Qian and Yiran Geng and Jiageng Mao and Weikang Wan and Mingtong Zhang and Jiangran Lyu and Siheng Zhao and Jiazhao Zhang and Jialiang Zhang and Chengyang Zhao and Haoran Lu and Yufei Ding and Ran Gong and Yuran Wang and Yuxuan Kuang and Ruihai Wu and Baoxiong Jia and Carlo Sferrazza and Hao Dong and Siyuan Huang and Koushil Sreenath and Yue Wang and Jitendra Malik and Pieter Abbeel},
-    year={2025},
-    primaryClass={cs.RO},
-    url={https://roboverse.wiki},
-}
-                                    </pre>
-                                </div>
-                            </li>
 
-                            <!-- MicroMobility -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/urbansim.jpeg" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">Towards Autonomous Micromobility through Scalable Urban Simulation</h4>
-                                        <p class="detail">
-                                            Wayne Wu*, Honglin He*, Chaoyuan Zhang, Jack He, Seth Z. Zhao, <strong>Ran Gong</strong>, Quanyi Li, and Bolei Zhou<br>
-                                            <em>IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) <strong style="color: red;">Highlight</strong>, 2025</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#urbansim">Abstract</button>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#urbansim-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                        <a class="btn btn-warning btn-xs" role="button" href="https://metadriverse.github.io/urban-sim/"><i class="fa fa-globe"></i> Website</a>
-                                    </div>
-                                </div>
-                                <div id="urbansim" class="collapse abstract">
-                                    Micromobility, which utilizes lightweight mobile machines moving in urban public spaces - such as delivery robots and electric wheelchairs - 
-                                    emerges as a promising alternative to vehicular mobility. Current micromobility depends mostly on human manual operation (in-person or remote control),
-                                    which raises safety and efficiency concerns when navigating busy urban environments full of unpredictable obstacles and pedestrians. 
-                                    Assisting humans with AI agents in maneuvering micromobility devices presents a viable solution for enhancing safety and efficiency. 
-                                    In this work, we present a scalable urban simulation solution to advance autonomous micromobility. First, we build 
-                                    URBAN-SIM - a high-performance robot learning platform for large-scale training of embodied agents in interactive 
-                                    urban scenes. URBAN-SIM contains three critical modules: Hierarchical Urban Generation pipeline, Interactive Dynamics Generation strategy,
-                                    and Asynchronous Scene Sampling scheme, to improve the diversity, realism, and efficiency of robot learning in simulation. Then, we
-                                    propose URBAN-BENCH - a suite of essential tasks and benchmarks to gauge various capabilities of the AI agents
-                                    in achieving autonomous micromobility. URBAN-BENCH includes eight tasks based on three core skills of the agents:
-                                    Urban Locomotion, Urban Navigation, and Urban Traverse. We evaluate four robots with heterogeneous embodiments, 
-                                    such as the wheeled and legged robots, across these tasks. Experiments on diverse terrains and urban
-                                    structures reveal each robot's strengths and limitations.
-                                </div>
-                                <div id="urbansim-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@inproceedings{wu2025urbansim,
-    title={Towards Autonomous Micromobility through Scalable Urban Simulation},
-    author={Wu, Wayne and He, Honglin and Zhang, Chaoyuan and He, Jack and Zhao, Seth Z. and Gong, Ran and Li, Quanyi and Zhou, Bolei},
-    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-    year={2025}
-}
-                                    </pre>
-                                </div>
-                            </li>
-
-                            <!-- AVL -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/agent_ai2.png" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">An interactive agent foundation model</h4>
-                                        <p class="detail">
-                                            Zane Durante*,
-                                            Bidipta Sarkar*, 
-                                            <strong>Ran Gong*</strong>,                                       
-                                            Rohan Taori,
-                                            Yusuke Noda,
-                                            Paul Tang,
-                                            Ehsan Adeli,
-                                            Shrinidhi Kowshika Lakshmikanth,
-                                            Kevin Schulman
-                                            Arnold Milstein,
-                                            Demetri Terzopoulos,
-                                            Ade Famoti,
-                                            Noboru Kuno,
-                                            Ashley Llorens,
-                                            Hoi Vo,
-                                            Katsu Ikeuchi
-                                            Li Fei-Fei,
-                                            Jianfeng Gao<br>
-                                            <em>preprint, 2024</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#agent-foundation-abs">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://arxiv.org/pdf/2402.05929.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#agent-foundation-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                    </div>
-                                </div>
-                                <div id="agent-foundation-abs" class="collapse abstract">
-                                    The development of artificial intelligence systems is transitioning from creating static, task-specific models to dynamic, agent-based systems capable of performing well in a wide range of applications. 
-                                    We propose an Interactive Agent Foundation Model that uses a novel multi-task agent training paradigm for training AI agents across a wide range of domains, datasets, 
-                                    and tasks. Our training paradigm unifies diverse pretraining strategies, including visual masked autoencoders, 
-                                    language modeling, and next-action prediction, enabling a versatile and adaptable AI framework. 
-                                    We demonstrate the performance of our framework across three separate domains— Robotics, Gaming AI, and Healthcare. 
-                                    Our model demonstrates its ability to generate meaningful and contextually relevant outputs in each area. 
-                                    The strength of our approach lies in its generality, leveraging a variety of data sources such as robotics sequences, gameplay data, large-scale video datasets,
-                                    and textual information for effective multimodal and multi-task learning. 
-                                    Our approach provides a promising avenue for developing generalist, action-taking, multimodal systems.
-                                </div>
-                                <div id="agent-foundation-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@article{durante2024interactive,
-    title={An interactive agent foundation model},
-    author={Durante, Zane and Sarkar, Bidipta and Gong, Ran and Taori, Rohan and Noda, Yusuke and Tang, Paul and Adeli, Ehsan and Lakshmikanth, Shrinidhi Kowshika and Schulman, Kevin and Milstein, Arnold and others},
-    journal={arXiv preprint arXiv:2402.05929},
-    year={2024}
-}
-                                    </pre>
-                                </div>
-                            </li>
-
-                            <!-- MindAgent -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/mindagent.png" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">MindAgent: Emerging Gaming Interaction</h4>
-                                        <p class="detail">
-                                            <strong>Ran Gong</strong>*,
-                                            Qiuyuan Huang*, 
-                                            Xiaojian Ma*,                                       
-                                            Hoi Vo,
-                                            Zane Durante,
-                                            Yusuke Noda,
-                                            Zilong Zheng,
-                                            Demetri Terzopoulos,
-                                            Li Fei-Fei,
-                                            Jianfeng Gao<br>
-                                            <em>NAACL Findings, 2024</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#mindagent-abs">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://arxiv.org/pdf/2309.09971.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#mindagent-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                        <a class="btn btn-warning btn-xs" role="button" href="https://mindagent.github.io/"><i class="fa fa-globe"></i> Website</a>
-                                    </div>
-                                </div>
-                                <div id="mindagent-abs" class="collapse abstract">
-                                    Large Language Models (LLMs) can perform complex scheduling in a multi-agent
-                                    system and can coordinate agents to complete sophisticated tasks that require
-                                    extensive collaboration. However, despite the introduction of numerous gaming
-                                    frameworks, the community lacks adequate benchmarks that support the implemen-
-                                    tation of a general multi-agent infrastructure encompassing collaboration between
-                                    LLMs and human-NPCs. We propose a novel infrastructure—MindAgent—for
-                                    evaluating planning and coordination capabilities in the context of gaming interac-
-                                    tion. In particular, our infrastructure leverages an existing gaming framework to (i)
-                                    require understanding of the coordinator for a multi-agent system, (ii) collaborate
-                                    with human players via instructions, and (iii) enable in-context learning based on
-                                    few-shot prompting with feedback. Furthermore, we introduce CuisineWorld, a
-                                    new gaming scenario and its related benchmark that supervises multiple agents
-                                    playing the game simultaneously and measures multi-agent collaboration efficiency.
-                                    We have conducted comprehensive evaluations with a new auto-metric collabo-
-                                    ration score CoS for assessing the collaboration efficiency. Finally, MindAgent
-                                    can be deployed in real-world gaming scenarios in a customized VR version of
-                                    CuisineWorld and adapted in the broader "Minecraft" gaming domain as showed
-                                    in Figure 1. Our work involving LLMs within our new infrastructure for general-
-                                    purpose scheduling and coordination can elucidate how such skills may be obtained
-                                    by learning from large language corpora.
-                                </div>
-                                <div id="mindagent-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@article{gong2023mindagent,
-    title={MindAgent: Emergent Gaming Interaction},
-    author={Gong, Ran and Huang, Qiuyuan and Ma, Xiaojian and Vo, Hoi and Durante, Zane and Noda, Yusuke and Zheng, Zilong and Terzopoulos, Demetri and Fei-Fei, Li and others},
-    journal={arXiv preprint arXiv:2309.09971},
-    year={2023}
-}
-                                    </pre>
-                                </div>
-                            </li>
-
-                            <!-- LEMMA -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/lemma.png" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">LEMMA: Learning Language-Conditioned Multi-Robot Manipulation</h4>
-                                        <p class="detail">
-                                            <strong>Ran Gong</strong>,
-                                            Xiaofeng Gao, 
-                                            Qiaozi Gao,                                       
-                                            Suhaila Shakiah,
-                                            Govind Thattai,
-                                            Gaurav S. Sukhatme <br>
-                                            <em>IEEE Robotics and Automation Letters (RA-L), 2023</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#lemma-abs">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://xfgao.github.io/paper/RAL2023_LEMMA.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#lemma-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                    </div>
-                                </div>
-                                <div id="lemma-abs" class="collapse abstract">
-                                    Complex manipulation tasks often require robots with complementary capabilities to collaborate. We introduce a benchmark for LanguagE-Conditioned Multi-robot MAnipulation (LEMMA) focused on task allocation and long-horizon object manipulation based on human language instructions in a tabletop setting. LEMMA features 8 types of procedurally generated tasks with varying degree of complexity, some of which require the robots to use tools and pass tools to each other. For each task, we provide 800 expert demonstrations and human instructions for training and evaluations. LEMMA poses greater challenges compared to existing benchmarks, as it requires the system to identify each manipulator's limitations and assign sub-tasks accordingly while also handling strong temporal dependencies in each task. To address these challenges, we propose a modular hierarchical planning approach as a baseline. Our results highlight the potential of LEMMA for developing future language-conditioned multi-robot systems.
-                                </div>
-                                <div id="lemma-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@article{gong2023lemma,
-    title={LEMMA: Learning Language-Conditioned Multi-Robot Manipulation},
-    author={Gong, Ran and Gao, Xiaofeng and Gao, Qiaozi and Shakiah, Suhaila and Thattai, Govind and Sukhatme, Gaurav S},
-    journal={arXiv preprint arXiv:2308.00937},
-    year={2023}
-}
-                                    </pre>
-                                </div>
-                            </li>
 
                             <!-- ARNOLD -->
                             <li class="list-group-item">
@@ -447,164 +201,6 @@
                                 </div>
                             </li>
 
-                            <!-- DialFRED -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/dialfred_intro.png" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">DialFRED: Dialogue-Enabled Agents for Embodied Instruction Following</h4>
-                                        <p class="detail">
-                                            Xiaofeng Gao, 
-                                            Qiaozi Gao,
-                                            <strong>Ran Gong</strong>,
-                                            Kaixiang Lin,
-                                            Govind Thattai,
-                                            Gaurav S. Sukhatme <br>
-                                            <em>IEEE Robotics and Automation Letters (RA-L), 2022</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#dialfred-abs">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://xfgao.github.io/paper/RAL2022_DialFRED.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#dialfred-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                        <a class="btn btn-warning btn-xs" role="button" href="https://github.com/xfgao/DialFRED"><i class="fa fa-github"></i> Code&Data</a>
-                                    </div>
-                                </div>
-                                <div id="dialfred-abs" class="collapse abstract">
-                                    Language-guided Embodied AI benchmarks requiring an agent to navigate an environment and manipulate objects typically allow one-way communication: the human user gives a natural language command to the agent, and the agent can only follow the command passively. We present DialFRED, a dialogue-enabled embodied instruction following benchmark based on the ALFRED benchmark. DialFRED allows an agent to actively ask questions to the human user; the additional information in the user's response is used by the agent to better complete its task. We release a human-annotated dataset with 53K task-relevant questions and answers and an oracle to answer questions. To solve DialFRED, we propose a questioner-performer framework wherein the questioner is pre-trained with the human-annotated data and fine-tuned with reinforcement learning. We make DialFRED publicly available and encourage researchers to propose and evaluate their solutions to building dialog-enabled embodied agents.
-                                </div>
-                                <div id="dialfred-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@article{gao2022dialfred,
-    title={DialFRED: Dialogue-Enabled Agents for Embodied Instruction Following}, 
-    author={Gao, Xiaofeng and Gao, Qiaozi and Gong, Ran and Lin, Kaixiang and Thattai, Govind and Sukhatme, Gaurav S.},
-    journal={IEEE Robotics and Automation Letters}, 
-    year={2022},
-    volume={7},	
-    pages={10049-10056},
-    doi={10.1109/LRA.2022.3193254}
-}
-                                    </pre>
-                                </div>
-                            </li>
-
-                            <!-- Inter-GPS -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/intergps_teaser.png" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning</h4>
-                                        <p class="detail">
-                                            Pan Lu*, 
-                                            <strong>Ran Gong*</strong>,
-                                            Shibiao Jiang,
-                                            Liang Qiu,
-                                            Siyuan Huang,
-                                            Xiaodan Liang,
-                                            Song-Chun Zhu<br>
-                                            <em>The Association for Computational Linguistics 2021 Oral Presentation</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#intergps-abs">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://nikepupu.github.io/paper/acl21_intergps.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#intergps-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                        <a class="btn btn-warning btn-xs" role="button" href="https://github.com/lupantech/InterGPS"><i class="fa fa-github"></i> Code&Data</a>
-                                    </div>
-                                </div>
-                                <div id="intergps-abs" class="collapse abstract">
-                                    Geometry problem solving has attracted much attention in the NLP community recently. The task is challenging as it requires abstract problem understanding and symbolic reasoning with axiomatic knowledge. However, current datasets are either small in scale or not publicly available. Thus, we construct a new largescale benchmark, Geometry3K, consisting of 3,002 geometry problems with dense annotation in formal language. We further propose a novel geometry solving approach with formal language and symbolic reasoning, called Interpretable Geometry Problem Solver (InterGPS). Inter-GPS first parses the problem text and diagram into formal language automatically via rule-based text parsing and neural object detecting, respectively. Unlike implicit learning in existing methods, Inter-GPS incorporates theorem knowledge as conditional rules and performs symbolic reasoning step by step. Also, a theorem predictor is designed to infer the theorem application sequence fed to the symbolic solver for the more efficient and reasonable searching path. Extensive experiments on the Geometry3K and GEOS datasets demonstrate that Inter-GPS achieves significant improvements over existing methods.
-                                </div>
-                                <div id="intergps-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@inproceedings{lu2021inter,
-    title={Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning},
-    author={Lu, Pan and Gong, Ran and Jiang, Shibiao and Qiu, Liang and Huang, Siyuan and Liang, Xiaodan and Zhu, Song-Chun},
-    booktitle={The 59th Annual Meeting of the Association for Computational Linguistics (ACL)},
-    year={2021}
-}
-                                    </pre>
-                                </div>
-                            </li>
-
-                            <!-- SMART -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/smart.png" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">SMART: A Situation Model for Algebra Story Problems via Attributed Grammar</h4>
-                                        <p class="detail">
-                                            Yining Hong, 
-                                            Qing Li,
-                                            <strong>Ran Gong</strong>,
-                                            Daniel Ciao,
-                                            Siyuan Huang,
-                                            Song-Chun Zhu<br>
-                                            <em>Association for the Advancement of Artificial Intelligence 2021</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#smart-abs">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://nikepupu.github.io/paper/smart.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#smart-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                        <a class="btn btn-warning btn-xs" role="button" href="https://evelinehong.github.io/smart-site/"><i class="fa fa-github"></i> Code&Data</a>
-                                    </div>
-                                </div>
-                                <div id="smart-abs" class="collapse abstract">
-                                    Solving algebra story problems remains a challenging task in artificial intelligence, which requires a detailed understanding of real-world situations and a strong mathematical reasoning capability. Previous neural solvers of math word problems directly translate problem texts into equations, lacking an explicit interpretation of the situations, and often fail to handle more sophisticated situations. To address such limits of neural solvers, we introduce the concept of a situation model, which originates from psychology studies to represent the mental states of humans in problem-solving, and propose SMART, which adopts attributed grammar as the representation of situation models for algebra story problems. Specifically, we first train an information extraction module to extract nodes, attributes, and relations from problem texts and then generate a parse graph based on a pre-defined attributed grammar. An iterative learning strategy is also proposed to improve the performance of SMART further. To rigorously study this task, we carefully curate a new dataset named ASP6.6k. Experimental results on ASP6.6k show that the proposed model outperforms all previous neural solvers by a large margin while preserving much better interpretability. To test these models' generalization capability, we also design an out-of-distribution (OOD) evaluation, in which problems are more complex than those in the training set. Our model exceeds state-of-the-art models by 17% in the OOD evaluation, demonstrating its superior generalization ability.
-                                </div>
-                                <div id="smart-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@inproceedings{hong2021smart,
-    title={SMART: A Situation Model for Algebra Story Problems via Attributed Grammar},
-    author={Hong, Yining and Li, Qing and Gong, Ran and Ciao, Daniel and Huang, Siyuan and Zhu, Song-Chun.},
-    booktitle={The Thirty-Fifth AAAI Conference on Artificial Intelligence, {AAAI-21}},
-    year={2021}
-}
-                                    </pre>
-                                </div>
-                            </li>
-
-                            <!-- Attention -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/attention.png" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">Learning to Infer Human Attention in Daily Activities</h4>
-                                        <p class="detail">
-                                            Zhixiong Nan, 
-                                            Tianmin Shu,
-                                            <strong>Ran Gong</strong>,
-                                            Shu Wang,
-                                            Ping Wei,
-                                            Song-Chun Zhu,
-                                            Nanning Zheng<br>
-                                            <em>Pattern Recognition 2020</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#attention-abs">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://nikepupu.github.io/paper/PR_Infer.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#attention-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                    </div>
-                                </div>
-                                <div id="attention-abs" class="collapse abstract">
-                                    The first attention model in the computer science community is proposed in 1998. In the following years, human attention has been intensively studied. However, these studies mainly refer human attention as the image regions that draw the attention of a human (outside the image) who is looking at the image. In this paper, we infer the attention of a human inside a third-person view video where the human is doing a task, and define human attention as attentional objects that coincide with the task the human is doing. To infer human attention, we propose a deep neural network model that fuses both low-level human pose cue and high-level task encoding cue. Due to the lack of appropriate public datasets for studying this problem, we newly collect a video dataset in complex Virtual-Reality (VR) scenes. In the experiments, we widely compare our method with three other methods on this VR dataset. In addition, we re-annotate a public real dataset and conduct the extensional experiments on this real dataset. The experiment results validate the effectiveness of our method.
-                                </div>
-                                <div id="attention-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@article{nan2020learning,
-    title={Learning to infer human attention in daily activities},
-    author={Nan, Zhixiong and Shu, Tianmin and Gong, Ran and Wang, Shu and Wei, Ping and Zhu, Song-Chun and Zheng, Nanning},
-    journal={Pattern Recognition},
-    volume={103},
-    pages={107314},
-    year={2020},
-    publisher={Elsevier}
-}
-                                    </pre>
-                                </div>
-                            </li>
 
                             <!-- XCooking -->
                             <li class="list-group-item">
@@ -646,45 +242,7 @@
 }
                                     </pre>
                                 </div>
-                            </li>
-
-                            <!-- VRKitchen -->
-                            <li class="list-group-item">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-lg-2">
-                                        <img src="./imgs/dish_fluent_small.gif" class="img-responsive img-fluid">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">VRKitchen: an Interactive 3D Environment for Learning Real Life Cooking Tasks</h4>
-                                        <p class="detail">
-                                            <a href="https://xfgao.github.io/">Xiaofeng Gao</a>, 
-                                            <strong>Ran Gong</strong>,
-                                            <a href="https://tshu.io">Tianmin Shu</a>,
-                                            <a href="https://xuxie1031.github.io/">Xu Xie</a>,
-                                            <a href="https://shuwang0712.github.io/">Shu Wang</a>,
-                                            <a href="http://www.stat.ucla.edu/~sczhu/">Song-Chun Zhu</a><br>
-                                            <em>ICML workshop on Reinforcement Learning for Real Life, 2019</em>
-                                        </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#kitchen-abs">Abstract</button>
-                                        <a class="btn btn-primary btn-xs" role="button" href="https://xfgao.github.io/paper/Arxiv2019_VRKitchen.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#kitchen-cite"><i class="fa fa-quote-right"></i> Cite</button>
-                                        <a class="btn btn-warning btn-xs" role="button" href="https://sites.google.com/view/vr-kitchen/"><i class="fa fa-globe"></i> Website</a> 
-                                    </div>
-                                </div>
-                                <div id="kitchen-abs" class="collapse abstract">
-                                    One of the main challenges of applying reinforcement learning to real world applications is the lack of realistic and standardized environments for training and testing AI agents. In this work, we design and implement a virtual reality (VR) system, VRKitchen, with integrated functions which i) enable embodied agents to perform real life cooking tasks involving a wide range of object manipulations and state changes, and ii) allow human teachers to provide demonstrations for training agents. We also provide standardized evaluation benchmarks and data collection tools to facilitate a broad use in research on learning real life tasks. Video demos, code, and data will be available on the project website: sites.google.com/view/vr-kitchen.
-                                </div>
-                                <div id="kitchen-cite" class="collapse abstract">
-                                    <pre class="citation" align="left">
-@article{gao2019vrkitchen,
-    title={Vrkitchen: an interactive 3d virtual environment for task-oriented learning},
-    author={Gao, Xiaofeng and Gong, Ran and Shu, Tianmin and Xie, Xu and Wang, Shu and Zhu, Song-Chun},
-    journal={arXiv preprint arXiv:1903.05757},
-    year={2019}
-}
-                                    </pre>
-                                </div>
-                            </li>
+                            </li>         
                         </ul>
                     </div>
                 </div>
