@@ -1,2 +1,1 @@
-# myWebsite
-This is my personal website hosted at: stevengong.net
+This is my personal website
