@@ -170,22 +170,22 @@
                                             <a href="https://sites.google.com/view/kimheewon">Heewon Kim</a>,
                                             <em>IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025</em>
                                         </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#arnold-abs">Abstract</button>
+                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="dynscene-abs">Abstract</button>
                                         <a class="btn btn-primary btn-xs" role="button" href="https://arxiv.org/abs/2304.04321"><i class="fa fa-file-pdf-o"></i> Paper</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#arnold-cite"><i class="fa fa-quote-right"></i> Cite</button>
+                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="dynscene-cite"><i class="fa fa-quote-right"></i> Cite</button>
                                         <a class="btn btn-warning btn-xs" role="button" href="https://arnold-benchmark.github.io/"><i class="fa fa-globe"></i> Website</a>
                                     </div>
                                 </div>
-                                <div id="arnold-abs" class="collapse abstract">
-                                    Understanding the continuous states of objects is essential for task learning and planning in the real world. However, most existing task learning benchmarks assume discrete(e.g., binary) object goal states, which poses challenges for the learning of complex tasks and transferring learned policy from simulated environments to the real world. Furthermore, state discretization limits a robot's ability to follow human instructions based on the grounding of actions and states. To tackle these challenges, we present ARNOLD, a benchmark that evaluates language-grounded task learning with continuous states in realistic 3D scenes. ARNOLD is comprised of 8 language-conditioned tasks that involve understanding object states and learning policies for continuous goals. To promote language-instructed learning, we provide expert demonstrations with template-generated language descriptions. We assess task performance by utilizing the latest language-conditioned policy learning models. Our results indicate that current models for language-conditioned manipulations continue to experience significant challenges in novel goal-state generalizations, scene generalizations, and object generalizations. These findings highlight the need to develop new algorithms that address this gap and underscore the potential for further research in this area.
-                                </div>
-                                <div id="arnold-cite" class="collapse abstract">
+                                <div id="dynscene-abs" class="collapse abstract">
+Robotic manipulation in embodied AI critically depends on large-scale, high-quality datasets that reflect realistic object interactions and physical dynamics. However, existing data collection pipelines are often slow, expensive, and heavily reliant on manual efforts. We present DynScene, a diffusion-based framework for generating dynamic robotic manipulation scenes directly from textual instructions. Unlike prior methods that focus solely on static environments or isolated robot actions, DynScene decomposes the generation into two phases static scene synthesis and action trajectory generation allowing fine-grained control and diversity. Our model enhances realism and physical feasibility through scene refinement (layout sampling, quaternion quantization) and leverages residual action representation to enable action augmentation, generating multiple diverse trajectories from a single static configuration. Experiments show DynScene achieves 26.8x faster generation, 1.84x higher accuracy, and 28% greater action diversity than human-crafted data. Furthermore, agents trained with DynScene exhibit up to 19.4% higher success rates across complex manipulation tasks. Our approach paves the way for scalable, automated dataset generation in robot learning.                                </div>
+                                <div id="dynscene-cite" class="collapse abstract">
                                     <pre class="citation" align="left">
-@article{gong2023arnold,
-    title={ARNOLD: A Benchmark for Language-Grounded Task Learning With Continuous States in Realistic 3D Scenes},
-    author={Gong, Ran and Huang, Jiangyong and Zhao, Yizhou and Geng, Haoran and Gao, Xiaofeng and Wu, Qingyang and Ai, Wensi and Zhou, Ziheng and Terzopoulos, Demetri and Zhu, Song-Chun and others},
-    journal={arXiv preprint arXiv:2304.04321},
-    year={2023}
+@inproceedings{lee2025dynscene,
+  title={DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI},
+  author={Lee, Sangmin and Park, Sungyong and Kim, Heewon},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={12166--12175},
+  year={2025}
 }
                                     </pre>
                                 </div>
@@ -199,36 +199,34 @@
                                         <img src="./imgs/map_final.png" class="img-responsive img-fluid">
                                     </div>
                                     <div class="col-xs-12 col-sm-8 col-lg-10">
-                                        <h4 class="list-group-item-heading">Joint Mind Modeling for Explanation Generation in Complex Human-Robot Collaborative Tasks</h4>
+                                        <h4 class="list-group-item-heading">SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses</h4>
                                         <p class="detail">
-                                            <a href="https://xfgao.github.io/">Xiaofeng Gao*</a>, 
-                                            <strong>Ran Gong*</strong>,
-                                            <a href="https://yizhouzhao.github.io/">Yizhou Zhao</a>,
-                                            <a href="https://shuwang0712.github.io/">Shu Wang</a>,
-                                            <a href="https://tshu.io">Tianmin Shu</a>,
-                                            <a href="http://www.stat.ucla.edu/~sczhu/">Song-Chun Zhu</a><br>
-                                            <em>IEEE International Conference on Robot & Human Interactive Communication (RO-MAN), 2020</em>
+                                            Sooyoung Choi, 
+                                            <strong>Sungyong Park*</strong>,
+                                            <a href="https://sites.google.com/view/kimheewon">Heewon Kim</a>,
+                                            <em>AAAI Conference on Artificial Intelligence, 2025</em>
                                         </p>
-                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#XCooking-abs">Abstract</button>
+                                        <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="SIDL-abs">Abstract</button>
                                         <a class="btn btn-primary btn-xs" role="button" href="https://xfgao.github.io/paper/ROMAN2020_XCooking.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a>
-                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="#XCooking-cite"><i class="fa fa-quote-right"></i> Cite</button>
+                                        <button class="btn btn-warning btn-xs" data-toggle="collapse" data-target="SIDL-cite"><i class="fa fa-quote-right"></i> Cite</button>
                                         <a class="btn btn-warning btn-xs" role="button" href="https://xfgao.github.io/xCookingWeb/"><i class="fa fa-globe"></i> Website</a> 
                                         <a class="btn btn-warning btn-xs" role="button" href="https://youtu.be/Q8jmEQ6JqQ0"><i class="fa fa-video-camera"></i> Talk</a>
                                         <a class="btn btn-warning btn-xs" role="button" href="https://xfgao.github.io/slides/ROMAN20_collabCooking.pdf"><i class="fa fa-file-powerpoint-o"></i> Slides</a>
                                     </div>
                                 </div>
-                                <div id="XCooking-abs" class="collapse abstract">
-                                    Human collaborators can effectively communicate with their partners to finish a common task by inferring each other's mental states (e.g., goals, beliefs, and desires). Such mind-aware communication minimizes the discrepancy among collaborators' mental states, and is crucial to the success in human ad-hoc teaming. We believe that robots collaborating with human users should demonstrate similar pedagogic behavior. Thus, in this paper, we propose a novel explainable AI (XAI) framework for achieving human-like communication in human-robot collaborations, where the robot builds a hierarchical mind model of the human user and generates explanations of its own mind as a form of communications based on its online Bayesian inference of the user's mental state. To evaluate our framework, we conduct a user study on a real-time human-robot cooking task. Experimental results show that the generated explanations of our approach significantly improves the collaboration performance and user perception of the robot.
+                                <div id="SIDL-abs" class="collapse abstract">
+                                  Smartphone cameras are ubiquitous in daily life, yet their performance can be severely impacted by dirty lenses, leading to degraded image quality. This issue is often overlooked in image restoration research, which assumes ideal or controlled lens conditions. To address this gap, we introduced SIDL (Smartphone Images with Dirty Lenses), a novel dataset designed to restore images captured through contaminated smartphone lenses. SIDL contains diverse real-world images taken under various lighting conditions and environments. These images feature a wide range of lens contaminants, including water drops, fingerprints, and dust. Each contaminated image is paired with a clean reference image, enabling supervised learning approaches for restoration tasks. To evaluate the challenge posed by SIDL, various state-of-the-art restoration models were trained and compared on this dataset. Their performances achieved some level of restoration but did not adequately address the diverse and realistic nature of the lens contaminants in SIDL. This challenge highlights the need for more robust and adaptable image restoration techniques for restoring images with dirty lenses
                                 </div>
-                                <div id="XCooking-cite" class="collapse abstract">
+                                <div id="SIDL-cite" class="collapse abstract">
                                     <pre class="citation" align="left">
-@inproceedings{gao2020joint,
-    title={Joint Mind Modeling for Explanation Generation in Complex Human-Robot Collaborative Tasks},
-    author={Gao, Xiaofeng and Gong, Ran and Zhao, Yizhou and Wang, Shu and Shu, Tianmin and Zhu, Song-Chun},
-    booktitle={2020 29th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
-    pages={1119--1126},
-    year={2020},
-    organization={IEEE}
+@inproceedings{choi2025sidl,
+  title={SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses},
+  author={Choi, Sooyoung and Park, Sungyong and Kim, Heewon},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={3},
+  pages={2545--2554},
+  year={2025}
 }
                                     </pre>
                                 </div>
