@@ -25,6 +25,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon">
   <link rel="icon" href="imgs/icon.png" type="image/x-icon">
+  <style>
+    .publication-thumb-wrap {
+      padding-right: 22px;
+    }
+    .publication-thumb {
+      width: 100%;
+      min-width: 230px;
+      max-height: 170px;
+      object-fit: contain;
+      object-position: center;
+      border-radius: 6px;
+    }
+    @media (max-width: 767px) {
+      .publication-thumb-wrap {
+        padding-right: 15px;
+        margin-bottom: 18px;
+      }
+      .publication-thumb {
+        min-width: 0;
+        max-height: none;
+      }
+    }
+  </style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -104,8 +127,8 @@
       (* indicates equal contribution)
 
       <li class="list-group-item"><div class="row">
-        <div class="col-xs-12 col-sm-4 col-lg-2"><img src="./imgs/clp.png" class="img-fluid" style="max-width: 100%; height: auto; width: 100%;"></div>
-        <div class="col-xs-12 col-sm-8 col-lg-10">
+        <div class="col-xs-12 col-sm-4 col-lg-3 publication-thumb-wrap"><img src="./imgs/clp.png" class="img-fluid publication-thumb"></div>
+        <div class="col-xs-12 col-sm-8 col-lg-9">
           <h4 class="list-group-item-heading">CLP: A Real-World Dataset of Contaminated Lens Protectors for Robust Semantic Segmentation</h4>
           <p class="detail"><strong>Sungyong Park</strong>*, Sooyoung Choi*, Hyunseo Koh, Youngjae Choi, and <a href="https://sites.google.com/view/kimheewon">Heewon Kim</a>, <em>IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2026</em></p>
           <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#clp-abs">Abstract</button>
@@ -123,8 +146,8 @@
 }</pre></div></li>
 
       <li class="list-group-item"><div class="row">
-        <div class="col-xs-12 col-sm-4 col-lg-2"><img src="./imgs/isid.png" class="img-fluid" style="max-width: 100%; height: auto; width: 100%;"></div>
-        <div class="col-xs-12 col-sm-8 col-lg-10">
+        <div class="col-xs-12 col-sm-4 col-lg-3 publication-thumb-wrap"><img src="./imgs/isid.png" class="img-fluid publication-thumb"></div>
+        <div class="col-xs-12 col-sm-8 col-lg-9">
           <h4 class="list-group-item-heading">Toward Interpretable Space Image Denoising by Learning Cross-Sensor Celestial Signals</h4>
           <p class="detail"><strong>Sungyong Park</strong>, Ji Hoon Kim, and <a href="https://sites.google.com/view/kimheewon">Heewon Kim</a>, <em>NTIRE Workshop at CVPR, 2026</em></p>
           <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#ntire-abs">Abstract</button>
@@ -141,8 +164,8 @@
 }</pre></div></li>
 
       <li class="list-group-item"><div class="row">
-        <div class="col-xs-12 col-sm-4 col-lg-2"><img src="./imgs/DynScene_pipeline.png" class="img-fluid" style="max-width: 100%; height: auto;"></div>
-        <div class="col-xs-12 col-sm-8 col-lg-10">
+        <div class="col-xs-12 col-sm-4 col-lg-3 publication-thumb-wrap"><img src="./imgs/DynScene_pipeline.png" class="img-fluid publication-thumb"></div>
+        <div class="col-xs-12 col-sm-8 col-lg-9">
           <h4 class="list-group-item-heading">DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI</h4>
           <p class="detail">Sangmin Lee*, <strong>Sungyong Park</strong>*, <a href="https://sites.google.com/view/kimheewon">Heewon Kim</a>, <em>IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025</em></p>
           <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#dynscene-abs">Abstract</button>
@@ -161,8 +184,8 @@
 }</pre></div></li>
 
       <li class="list-group-item"><div class="row">
-        <div class="col-xs-12 col-sm-4 col-lg-2"><img src="./imgs/SIDL_setup.png" class="img-fluid" style="max-width: 100%; height: auto; width: 100%;"></div>
-        <div class="col-xs-12 col-sm-8 col-lg-10">
+        <div class="col-xs-12 col-sm-4 col-lg-3 publication-thumb-wrap"><img src="./imgs/SIDL_setup.png" class="img-fluid publication-thumb"></div>
+        <div class="col-xs-12 col-sm-8 col-lg-9">
           <h4 class="list-group-item-heading">SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses</h4>
           <p class="detail">Sooyoung Choi*, <strong>Sungyong Park</strong>*, <a href="https://sites.google.com/view/kimheewon">Heewon Kim</a>, <em>AAAI Conference on Artificial Intelligence, 2025</em></p>
           <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#SIDL-abs">Abstract</button>
@@ -185,8 +208,8 @@
 }</pre></div></li>
 
       <li class="list-group-item"><div class="row">
-        <div class="col-xs-12 col-sm-4 col-lg-2"><img src="./imgs/udt.png" class="img-fluid" style="max-width: 100%; height: auto; width: 100%;"></div>
-        <div class="col-xs-12 col-sm-8 col-lg-10">
+        <div class="col-xs-12 col-sm-4 col-lg-3 publication-thumb-wrap"><img src="./imgs/udt.png" class="img-fluid publication-thumb"></div>
+        <div class="col-xs-12 col-sm-8 col-lg-9">
           <h4 class="list-group-item-heading">UDT: Unsupervised Discovery of Transformations between Fine-Grained Classes in Diffusion Models</h4>
           <p class="detail">Youngjae Choi*, Hyunseo Koh*, Hojae Jeong*, Byungkwan Chae*, <strong>Sungyong Park</strong>, and <a href="https://sites.google.com/view/kimheewon">Heewon Kim</a>, <em>British Machine Vision Conference (BMVC), 2025</em></p>
           <button class="btn btn-success btn-xs" data-toggle="collapse" data-target="#udt-abs">Abstract</button>
